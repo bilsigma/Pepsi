@@ -1,0 +1,86 @@
+header{
+    background-color: rgb(0, 52, 173);
+font-size:  30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+height: 400px;
+color: rgb(255, 255, 255);
+text-align: center;
+background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/230327115441-embargoed-02-pepsi-new-logo-2023.jpg?c=16x9&q=h_720,w_1280,c_fill);
+padding-top: 50px;
+}
+main{
+    background: linear-gradient(to left, rgb(255, 0, 0),rgb(30, 0, 255));
+font-size:  30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+height: 100%;
+color: rgb(0, 0, 0);
+text-align: center;   
+display: flex;
+justify-content: center;
+
+}
+footer{
+    background-color: rgb(0, 12, 178);
+    font-size:  30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 400px;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    display: flex;
+}
+h1{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 80px;
+text-shadow: rgb(255, 251, 0) 2px 5px 5px;
+font-style: italic;
+}
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-shadow: rgb(255, 251, 0) 2px 5px 5px;  
+    font-style: italic;
+}
+.left{
+    background-color: rgb(163, 163, 163);
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+    padding: 10px;
+}
+.right{
+    background-color: rgba(255, 255, 255, 0);
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+body{
+margin: 0px;
+}
+.f_left{
+float: left;
+text-align: center;
+padding: 20px;
+}
+
+.f_right{
+    float: right;
+}
+.f_right ul{
+    margin-top: 10%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.f_right li{
+    padding-right:20px ;
+}
